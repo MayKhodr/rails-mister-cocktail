@@ -6,7 +6,7 @@
 
   <div class='cards'>
     <% @cocktails.each do |cocktail| %>
-      <div class="card">
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= cl_image_tag cocktail.photo.key, height: 300, width: 400, crop: :fill %>')">
         <h3 cçass="drink-name"> <%= link_to cocktail.name, cocktail_path(cocktail) %> </h3>
       </div>
     <% end %>
