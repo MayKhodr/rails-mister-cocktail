@@ -1,0 +1,23 @@
+/* .navbar-lewagon {
+  justify-content: space-between;
+  background: white;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+} */
+.navbar {
+  box-shadow: 1px 3px 5px lightgrey;
+  background-color: #83c5be;
+  a {
+    color: white;
+    &:hover {
+      color: #edf6f9;
+    }
+  }
+}
+
